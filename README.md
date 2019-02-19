@@ -21,7 +21,7 @@ $ npm install --save @ionic-native/photo-viewer
 > Out of the box
 
 
-### API
+### API-IOS
 
 #### Show an image
 
@@ -47,7 +47,7 @@ var options = {
 
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
-### Android
+### API-Android
 
 URL:
 * title: Picture captions [mandatory]
