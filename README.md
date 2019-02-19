@@ -51,7 +51,7 @@ PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 
 URL:
 * title: Picture captions [mandatory]
-* elasticsearch: Picture description [optional]
+* description : Picture description [optional]
 * url: Picture address 
 
 ```
