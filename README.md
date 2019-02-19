@@ -49,7 +49,7 @@ PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
 ### Android
 
-url:
+URL:
 * title: Picture captions [mandatory]
 * elasticsearch: Picture description [optional]
 * url: Picture address 
