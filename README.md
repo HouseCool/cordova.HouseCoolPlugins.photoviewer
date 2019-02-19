@@ -48,6 +48,12 @@ var options = {
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
 ### Android
+
+url:
+* title: Picture captions [mandatory]
+* elasticsearch: Picture description [optional]
+* url: Picture address 
+
 ```
 function Transfer(){
     var url = [
@@ -59,4 +65,5 @@ function Transfer(){
     PhotoViewer.showMultiple(url,3,options);
 }
 ```
+
 
