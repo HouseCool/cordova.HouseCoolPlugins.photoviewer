@@ -5,7 +5,7 @@
 
 Cordova:
 ```bash
-cordova plugin add 
+cordova plugin add https://github.com/HouseCool/cordova.HouseCoolPlugins.photoviewer.git
 ```
 
 Ionic 2:
@@ -47,42 +47,16 @@ var options = {
 
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
+### Android
+```
+function Transfer(){
+    var url = [
+        {"title":"图像1","url":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1982513715,1507401127&fm=26&gp=0.jpg"},
+    ]
+    var options = {
+        share: false, // default is false
+    };
+    PhotoViewer.showMultiple(url,3,options);
+}
+```
 
-### Versions  
-(1.0.2) Removed Podfile and the dependency  
-(1.1.0)
-- Removing project dependencies.  
-- Moving to Gradle  
-- Adding Square's Picasso as Image Loader  
-- New Optional Title
-- Share button and title bar
-- Automatic close on error.
-- Support for content:// Uris from Cordova
-- Replaced old namespace
-- Published to NPM  
-
-(1.1.1)
-- Fix for sharing due to online restriction
-
-(1.1.2)
-- Fix issues on iOS
-- iOS title not updating
-
-(1.1.3)
-- Issue fixes
-
-(1.1.4)
-- Base64 Support on Android
-
-(1.1.5)
-- Option to hide and show share button on Android
-
-(1.1.7)  
-- Fix OOM issues on Android
-
-(1.1.9/10)  
-- Fix how image is shown on Android
-
-(1.1.17)  
-- Additional options added for iOS
-- Fix share issue with SDK version 24 or above on Android
