@@ -57,7 +57,7 @@ URL:
 ```
 function Transfer(){
     var url = [
-        {"title":"图像1","url":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1982513715,1507401127&fm=26&gp=0.jpg"},
+{"title":"图像1","description"："图片描述","url":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1982513715,1507401127&fm=26&gp=0.jpg"},
     ]
     var options = {
         share: false, // default is false
