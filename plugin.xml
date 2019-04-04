@@ -28,9 +28,8 @@
 	    <source-file src="src/android/PhotoMultipleActivity.java" target-dir="src/com/Hongleilibs/PhotoViewer" />
 		<source-file src="src/android/layout/activity_photo.xml" target-dir="res/layout" />
 		<source-file src="src/android/activity_multiple_photo.xml" target-dir="res/layout" />
-		<source-file src="src/android/drawable/ic_chevron_left.png" target-dir="app/src/main/res/drawable-port-hdpi" />
-		<source-file src="src/android/drawable/image_failed.png" target-dir="app/src/main/res/drawable-port-hdpi" />
-		<source-file src="src/android/drawable/ic_dots_horizontal.png" target-dir="app/src/main/res/drawable-port-hdpi" />
+		<source-file src="src/android/drawable/returns.png" target-dir="app/src/main/res/drawable-port-hdpi" />
+		<source-file src="src/android/drawable/download.png" target-dir="app/src/main/res/drawable-port-hdpi" />
 		<framework src="com.android.support:support-v4:23.1.1" />
 		<framework src="com.commit451:PhotoView:1.2.4" />		
 	</platform>

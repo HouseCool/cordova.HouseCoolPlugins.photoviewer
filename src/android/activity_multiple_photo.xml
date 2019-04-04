@@ -11,7 +11,7 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp" />
+        android:padding="6dp" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -30,17 +30,20 @@
 
         <ImageButton
             android:id="@+id/closeBtn"
-            android:layout_width="41dp"
+            android:layout_width="34dp"
             android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
             android:background="@android:color/transparent"
-            android:padding="10dp"
-            android:src="@drawable/ic_chevron_left" />
+            android:padding="9dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/returns" />
 
         <TextView
             android:id="@+id/titleTxt"
             android:layout_width="235dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:paddingTop="5dp"
             android:gravity="center_vertical|center_horizontal"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -48,12 +51,14 @@
 
         <ImageButton
             android:id="@+id/shareBtn"
-            android:layout_width="45dp"
+            android:layout_width="34dp"
             android:layout_height="match_parent"
+            android:scaleType="fitCenter"
             android:background="@android:color/transparent"
-            android:padding="10dp"
-            android:src="@drawable/ic_dots_horizontal"
-            android:text="Close" />
+            android:padding="7dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/download"
+            />
     </LinearLayout>
     </FrameLayout>
 
