@@ -32,17 +32,13 @@ PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title');
 Optionally you can pass third parameter option as object.
 
 Options:
-* share: Option is used to hide and show the share option.
-* closeBtn: Option for close button visibility when share false [ONLY FOR iOS]
-* copyToReference: If you need to copy image to reference before show then set it true [ONLY FOR iOS]
+* share: Image download function.
 
 ##### Usage
 
 ```
 var options = {
     share: true, // default is false
-    closeButton: false, // default is true
-    copyToReference: true // default is false
 };
 
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
